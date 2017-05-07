@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "835299474316",
+    "firebase_url": "https://gmat-critical-reasoning-medium.firebaseio.com",
+    "project_id": "gmat-critical-reasoning-medium",
+    "storage_bucket": "gmat-critical-reasoning-medium.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835299474316:android:624d4ccc1dc1ab78",
+        "android_client_info": {
+          "package_name": "com.oms_infotech.www.chitchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835299474316-i0k0ft1nl00n1husmgvotr78894tu19j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpwhc9vc1yu3U7GLu0MtC28Lj7ZFyVqk4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#EBEDEF"
+    tools:context="com.oms_infotech.www.fitnessapp.Main2Activity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calorie Remaining : "
+        android:background="#FFFFFF"
+        android:layout_alignParentBottom="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+        android:elevation="3dp"
+        android:id="@+id/rlbreakfast"
+        android:background="#F6F6F6"
+        android:clickable="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:padding="10dp"
+            android:layout_marginBottom="3dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageViewmaths"
+                android:src="@drawable/breakfast"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Breakfast"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/textView11"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/imageViewmaths"
+                android:layout_toRightOf="@+id/imageViewmaths" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:id="@+id/rllunch"
+        android:layout_below="@+id/rlbreakfast"
+        android:background="#F6F6F6"
+        android:clickable="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:padding="10dp"
+            android:layout_marginBottom="3dp"
+            android:elevation="3dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageViewreading"
+                android:src="@drawable/lunch"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Lunch"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/textView10"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/imageViewreading"
+                android:layout_toRightOf="@+id/imageViewreading" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:id="@+id/rldinner"
+        android:layout_below="@+id/rllunch"
+        android:background="#F6F6F6"
+        android:clickable="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="3dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageViewawa"
+                android:src="@drawable/dinner"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Dinner"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/textView12"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/imageViewawa"
+                android:layout_toRightOf="@+id/imageViewawa" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:id="@+id/rlexercise"
+        android:layout_below="@+id/rldinner"
+        android:background="#F6F6F6"
+        android:clickable="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="3dp"
+            android:padding="10dp"
+            android:onClick="On">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageViewcritical"
+                android:src="@drawable/exer"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Exercise"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/textView13"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/imageViewcritical"
+                android:layout_toRightOf="@+id/imageViewcritical" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:layout_below="@+id/rlexercise"
+        android:id="@+id/rlsnacks"
+        android:background="#F6F6F6"
+        android:clickable="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="3dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageViewsentence"
+                android:src="@drawable/snack"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Snacks"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/textView14"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/imageViewsentence"
+                android:layout_toRightOf="@+id/imageViewsentence" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:layout_below="@+id/rlsnacks"
+        android:id="@+id/rlwater"
+        android:background="#F6F6F6"
+        android:clickable="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="3dp"
+            android:padding="10dp"
+            android:onClick="On">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageViewwater"
+                android:src="@drawable/water"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Water Intake"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/textView16"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/imageViewwater"
+                android:layout_toRightOf="@+id/imageViewwater" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>
